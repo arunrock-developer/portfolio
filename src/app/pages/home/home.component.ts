@@ -89,11 +89,11 @@ export class HomeComponent implements OnInit {
 
   portFolioImages=[
     {
-      'imagepath' : './assetsimg/portfolio-images/web-portfolio-img.png',
+      'imagepath' : './assets/img/portfolio-images/web-portfolio-img.png',
       'type' : 'website',
     },
     {
-      'imagepath' : './assetsimg/portfolio-images/web-portfolio-img-2.png',
+      'imagepath' : './assets/img/portfolio-images/web-portfolio-img-2.png',
       'type' : 'website',
     },
     {
