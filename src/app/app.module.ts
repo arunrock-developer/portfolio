@@ -20,9 +20,9 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     AppRoutingModule,
     ReactiveFormsModule,
     NgxSpinnerModule,
-    SlickCarouselModule
+    SlickCarouselModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
