@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   filteredPortFolioImages:any[]=[]
   aboutText: About[] = ABOUT_DATA;
   testimonialData:Testimonial[] = TESTIMONIALS_DATA;
-  
+
   constructor(
     private route: ActivatedRoute,
     private viewportScroller: ViewportScroller,
@@ -29,8 +29,8 @@ export class HomeComponent implements OnInit {
   ) { }
 
 
- 
- 
+
+
   ngOnInit(): void {
     this.filteredPortFolioImages = this.portFolioImages;
     this.startTypingEffect();
@@ -89,67 +89,67 @@ export class HomeComponent implements OnInit {
 
   portFolioImages=[
     {
-      'imagepath' : '../../../assets/img/portfolio-images/web-portfolio-img.png',
+      'imagepath' : './assetsimg/portfolio-images/web-portfolio-img.png',
       'type' : 'website',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/web-portfolio-img-2.png',
+      'imagepath' : './assetsimg/portfolio-images/web-portfolio-img-2.png',
       'type' : 'website',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/web-portfolio-img-3.png',
+      'imagepath' : './assets/img/portfolio-images/web-portfolio-img-3.png',
       'type' : 'website',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-1.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-1.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-2.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-2.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-3.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-3.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-4.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-4.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-5.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-5.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-6.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-6.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-7.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-7.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-8.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-8.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/img-9.jpg',
+      'imagepath' : './assets/img/portfolio-images/img-9.jpg',
       'type' : 'App',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/figma-1.png',
+      'imagepath' : './assets/img/portfolio-images/figma-1.png',
       'type' : 'Figma',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/figma-2.png',
+      'imagepath' : './assets/img/portfolio-images/figma-2.png',
       'type' : 'Figma',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/figma-3.png',
+      'imagepath' : './assets/img/portfolio-images/figma-3.png',
       'type' : 'Figma',
     },
     {
-      'imagepath' : '../../../assets/img/portfolio-images/figma-4.png',
+      'imagepath' : './assets/img/portfolio-images/figma-4.png',
       'type' : 'Figma',
     },
   ]
@@ -273,7 +273,7 @@ slides = [
   { img: "assets/img/portfolio-images/img-6.jpg" },
   { img: "assets/img/portfolio-images/img-7.jpg" },
   { img: "assets/img/portfolio-images/img-8.jpg" },
-  
+
 ];
 
 
